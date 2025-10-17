@@ -1,7 +1,5 @@
 from openpyxl import Workbook, load_workbook
 
-from openpyxl import Workbook, load_workbook
-
 def crear_excel(nombre_archivo):
     wb = Workbook()
     ws = wb.active
